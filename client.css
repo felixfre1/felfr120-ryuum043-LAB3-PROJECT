@@ -1,0 +1,200 @@
+.body-for-welcome {
+	background-color: #7496c9;
+}
+.welcome {
+	position: relative;
+	top: 100px;
+	height: 400px;
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+#sign-in-form,
+#sign-up-form {
+	margin-top: 20px;
+}
+
+.image {
+	border: 2px solid black;
+}
+
+.input {
+	margin-left: 10px;
+}
+
+.user-input {
+	margin-right: 2px;
+	margin-bottom: 4px;
+	border-top: 2px solid gray;
+	border-left: 2px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.welcome-user-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+#sign-in {
+	border: 2px solid black;
+	height: 100px;
+	width: 250px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+#sign-in-button {
+	margin: 4px 0 0 202px;
+}
+
+#sign-up {
+	border: 2px solid black;
+	height: 286px;
+	width: 250px;
+	background-color: white;
+}
+
+#sign-up-text {
+	text-align: center;
+}
+
+#sign-up-button {
+	margin: 0 0 0 188px;
+}
+
+#gender {
+	width: 146px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.tab {
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	display: flex;
+	flex-flow: wrap;
+}
+
+.tab-item {
+	display: block;
+	flex-grow: 1;
+	text-align: center;
+	padding: 10px 0;
+	cursor: pointer;
+	order: -1;
+	border-top: 1px solid skyblue;
+	border-left: 1px solid skyblue;
+	border-right: 1px solid skyblue;
+}
+
+.tab-item:not(:first-of-type) {
+	border-left: none;
+}
+
+.tab-input:checked + .tab-item {
+	background: red;
+	color: white;
+}
+
+.tab-content {
+	width: 100%;
+	height: 400px;
+	display: none;
+	justify-content: center;
+	font-size: 40px;
+	border: 1px solid skyblue;
+}
+
+.tab-input:checked + .tab-item + .tab-content {
+	display: flex;
+}
+
+.user-info-label,
+#home-wall-heading,
+#search-heading {
+	font-size: 14px;
+}
+
+.profile-user-info {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+#account-form {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+#sign-out-button {
+	height: 20px;
+	margin-left: 100px;
+}
+
+.home-user-info,
+.browse-user-info {
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	width: 350px;
+}
+
+.profile-info {
+	margin-top: 50px;
+	height: 150px;
+}
+
+#home-wall,
+#browse-wall {
+	height: 200px;
+	text-align: center;
+}
+
+#home-message-list,
+#browse-message-list {
+	font-size: 12px;
+}
+
+#content {
+	word-break: break-all;
+}
+
+.pop-up {
+	position: fixed;
+	left: 5%;
+	bottom: 5%;
+	display: table;
+	height: 30px;
+	font-size: 20px;
+	color: white;
+	background: red;
+}
+
+.pop-up-for-lat-lng {
+	position: fixed;
+	left: 5%;
+	bottom: 5%;
+	display: table;
+	height: 30px;
+	font-size: 20px;
+	color: white;
+	background: blue;
+}
+
+.pop-up p {
+	line-height: 30px;
+}
+
+.pop-up-none,
+#lat,
+#lng {
+	display: none;
+}
